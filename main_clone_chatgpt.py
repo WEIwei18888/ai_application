@@ -2,13 +2,15 @@ import streamlit as st
 from utils.utils_clone_chatgpt import get_chat_response
 from langchain.memory import ConversationBufferMemory
 
-# 设置页面配置
+# 设置页面在侧边栏中显示的名称
 st.set_page_config(
     page_title="智能对话助手",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+
 
 
 # 侧边栏

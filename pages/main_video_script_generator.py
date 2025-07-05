@@ -1,13 +1,15 @@
 from utils.utils_video_script_generator import generate_script
 import streamlit as st
 
-# 配置页面
+# 设置页面在侧边栏中显示的名称
 st.set_page_config(
     page_title="视频脚本生成器",
     page_icon="🎬",
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
+
 
 #应用标题
 st.title("🎬 AI视频脚本生成器")

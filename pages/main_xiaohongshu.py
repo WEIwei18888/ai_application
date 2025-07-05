@@ -2,13 +2,15 @@ import streamlit as st
 from streamlit import spinner
 from utils.utils_xiaohongshu import generate_copywriting
 
-# 设置页面配置
+# 设置页面在侧边栏中显示的名称
 st.set_page_config(
     page_title="小红书爆款文案生成器",
     page_icon="📝",
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+
 
 
 # 侧边栏

@@ -2,13 +2,15 @@ import streamlit as st
 from utils.utils_pdf_qa_tool import qa_agent
 from langchain.memory import ConversationBufferMemory
 
-# 设置页面配置
+# 设置页面在侧边栏中显示的名称
 st.set_page_config(
     page_title="PDF智能问答工具",
     page_icon="✨",
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+
 
 # 页面标题
 st.title("✨ 智能PDF问答工具")

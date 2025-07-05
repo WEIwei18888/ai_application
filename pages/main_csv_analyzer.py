@@ -2,6 +2,14 @@ import streamlit as st
 import pandas as pd
 from utils.utils_csv_analyzer import dataframe_agent
 
+# 设置页面在侧边栏中显示的名称
+st.set_page_config(
+    page_title="CSV数据分析智能工具",
+    page_icon="✨",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 
 # 对图表绘制逻辑进行封装
 def create_char(input_data, chart_type):
@@ -16,14 +24,7 @@ def create_char(input_data, chart_type):
         st.scatter_chart(df_data)
 
 
-pd.DataFrame()
-# 设置页面配置
-st.set_page_config(
-    page_title="CSV数据分析智能工具",
-    page_icon="✨",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
+
 
 # 页面标题
 st.title("📊 CSV数据分析智能工具")
