@@ -15,4 +15,7 @@ enableXsrfProtection = false
 gatherUsageStats = false
 
 [global]
-developmentMode = false 
+developmentMode = false
+
+[ui]
+navigationMode = "sidebar" 
