@@ -1,0 +1,24 @@
+[[pages]]
+path = "main_clone_chatgpt.py"
+name = "智能对话助手"
+icon = "🤖"
+
+[[pages]]
+path = "pages/main_csv_analyzer.py"
+name = "CSV数据分析工具"
+icon = "📊"
+
+[[pages]]
+path = "pages/main_pdf_qa_tool.py"
+name = "PDF智能问答"
+icon = "📖"
+
+[[pages]]
+path = "pages/main_video_script_generator.py"
+name = "视频脚本生成器"
+icon = "🎬"
+
+[[pages]]
+path = "pages/main_xiaohongshu.py"
+name = "小红书文案生成器"
+icon = "📝" 
